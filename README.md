@@ -1,5 +1,5 @@
 <p align="center">
-<img width="200" height="135" alt="portfolio-plus-banking-software-logo-png_seeklogo-354120 (4)" src="https://github.com/user-attachments/assets/a7b6156e-6d45-4f82-bfff-0858031c5ee8" />
+<img width="150" height="135" alt="portfolio-plus-banking-software-logo-png_seeklogo-354120 (4)" src="https://github.com/user-attachments/assets/a7b6156e-6d45-4f82-bfff-0858031c5ee8" />
 </p>
 
 
