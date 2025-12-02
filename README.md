@@ -1,5 +1,5 @@
 <p align="center">
-<img width="150" height="135" alt="portfolio-plus-banking-software-logo-png_seeklogo-354120 (4)" src="https://github.com/user-attachments/assets/a7b6156e-6d45-4f82-bfff-0858031c5ee8" />
+<img width="150" height="190" alt="portfolio-plus-banking-software-logo-png_seeklogo-354120 (4)" src="https://github.com/user-attachments/assets/a7b6156e-6d45-4f82-bfff-0858031c5ee8" />
 </p>
 
 
@@ -28,7 +28,7 @@ Here, you'll find projects that demonstrate **diagnostic thinking**, **hypothesi
 ## **Portfolio Projects**
 Here is a brief overview of my projects. Click on the links to see the full project details.
 
-## **Project 1. Diagnosing 97% Customer Churn: Olist Marketplace Retention Analysis**
+## **Project 1. Olist Marketplace Retention Analysis: Diagnosing 97% Customer Churn**
 **Overview:**  
 Olist, a Brazilian e-commerce marketplace, faced a critical retention problem: 97% of customers never made a second purchase. Leadership needed to know whether this was an operational failure they could fix (delivery speed, seller quality) or a structural market behavior requiring a strategic pivot.
 
