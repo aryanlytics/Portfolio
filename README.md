@@ -28,7 +28,9 @@ Here, you'll find projects that demonstrate **diagnostic thinking**, **hypothesi
 ## **Portfolio Projects**
 Here is a brief overview of my projects. Click on the links to see the full project details.
 
-## **Project 1. Olist Marketplace Retention Analysis: Diagnosing 97% Customer Churn**
+## **Project 1. Olist Marketplace Retention Analysis:**
+### **Diagnosing 97% Customer Churn**         
+
 **Overview:**  
 Olist, a Brazilian e-commerce marketplace, faced a critical retention problem: 97% of customers never made a second purchase. Leadership needed to know whether this was an operational failure they could fix (delivery speed, seller quality) or a structural market behavior requiring a strategic pivot.
 
@@ -44,10 +46,14 @@ Proved that retention is a **structural market problem**, not operational. Even 
 
 **Key insight:** Olist was positioned as a transactional marketplace for one-off purchases, not a relationship platform. Recommended shifting from retention optimization to acquisition efficiency and category mix improvement—estimated **$2.5M GMV impact over 3 years** without changing logistics or seller infrastructure.
 
-[See full project: Olist-Retention-Analysis](https://github.com/aryanlytics/Olist-Retention-Analysis.git)
+[See full project](https://github.com/aryanlytics/Olist-Retention-Analysis.git)
 
 ---
+## **Project 1. Instacart Customer Behavier Analysis:**
 
+[See full project](https://github.com/aryanlytics/Instacart-Customer-Behavior-Analysis.git)
+
+----
 ## Skills
 - **Diagnostic Analysis** (Why is this happening?)
 - **Hypothesis Testing** (Chi-square, regression, A/B testing)
