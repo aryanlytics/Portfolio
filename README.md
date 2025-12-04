@@ -49,7 +49,7 @@ Proved that retention is a **structural market problem**, not operational. Even 
 [See full project](https://github.com/aryanlytics/Olist-Retention-Analysis.git)
 
 ---
-## **Project 1. Instacart Customer Behavier Analysis:**
+## **Project 2. Instacart Customer Behavier Analysis:**
 
 [See full project](https://github.com/aryanlytics/Instacart-Customer-Behavior-Analysis.git)
 
@@ -67,7 +67,7 @@ Proved that retention is a **structural market problem**, not operational. Even 
 ---
 
 ## Contact
-- **Email:** aryanrehman008@gmail.com
+- **Email:** aryanlytics@gmail.com
 - **LinkedIn:** [Muhammad Aryan](https://www.linkedin.com/in/muhammadaryan008/)
 - **GitHub:** [Muhammad Aryan](https://github.com/aryanlytics)
 - **Location:** Peshawar, Pakistan
