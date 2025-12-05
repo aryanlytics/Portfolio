@@ -28,7 +28,7 @@ Here, you'll find projects that demonstrate **diagnostic thinking**, **hypothesi
 ## **Portfolio Projects**
 Here is a brief overview of my projects. Click on the links to see the full project details.
 
-## **Project 1. Olist Marketplace Retention Analysis:**
+# **Project 1. Olist Marketplace Retention Analysis:**
 ### **Diagnosing 97% Customer Churn**         
 
 **Overview:**  
@@ -49,9 +49,31 @@ Proved that retention is a **structural market problem**, not operational. Even 
 [See full project](https://github.com/aryanlytics/Olist-Retention-Analysis.git)
 
 ---
-## **Project 2. Instacart Customer Behavier Analysis:**
+
+
+
+# **Project 2. Instacart Customer Behavior Analysis:**
+### **Diagnosing Reorder Patterns and Basket Size Drivers**
+
+**Overview:**  
+Instacart operates in a low-margin, high-volume grocery delivery business where two metrics determine profitability: reorder rate (retention) and basket size (revenue per transaction). Across 32.4 million orders, the company noticed wide variation in both—some products reordered at 67%, others at 35%; some baskets with 30+ items, others with just 2-3 items.
+
+This project diagnoses what drives these behaviors using statistical testing (chi-square, ANOVA, correlation, regression) to determine whether differences are operational, behavioral, or timing-based.
+
+**Goal:**  
+* Determine why some products get reordered while others don't (category psychology vs operational failure)
+* Identify what drives basket size variation (customer loyalty vs shopping breadth)
+* Provide data-backed recommendations to optimize retention spend and revenue per order
+
+**Result:**  
+**Question 1 (Reorder Behavior):** Proved reorder rates are driven by **category type** (dairy 97% higher odds, pantry 53% lower, p < 0.001) and **user frequency** (45-point spread between new and established customers), not timing. Pantry's low reorder rate reflects natural variety-seeking behavior, not retention failure. Recommended reallocating 15-20% of wasted retention budget from pantry promotions to dairy/beverage reorder campaigns.
+
+**Question 2 (Basket Size):** Proved basket size is driven by **category diversity** (each additional department = +2.43 items, r = 0.82, p < 0.001) and **day of week** (Sunday baskets 19% larger, p < 0.001), not customer frequency. High-loyalty customers (80%+ reorder rate) have 21% *smaller* baskets because they buy the same staples efficiently. Recommended shifting promotional budget to Sundays and building cross-category bundles to drive breadth, not frequency.
+
+**Key insight:** Both metrics are about **what customers buy** (category mix) and **when they shop** (weekly rhythms), not **who they are** (loyalty tier). Instacart was treating basket growth as a loyalty problem when it's actually a cross-selling problem. Expected impact: +$10-15 revenue per order through category expansion, 15-20% promotional ROI improvement by targeting high-basket days.
 
 [See full project](https://github.com/aryanlytics/Instacart-Customer-Behavior-Analysis.git)
+
 
 ----
 ## Skills
