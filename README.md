@@ -16,7 +16,7 @@
 
 
 ## About me
-I'm **Muhammad Aryan**, a **data analyst** specializing in **diagnostic analysis** and **business problem-solving** for e-commerce and marketplace operations. I focus on answering the question: "Why is this happening?" rather than just "What happened?"
+I'm **Muhammad Aryan**, a **data analyst** specializing in **diagnostic analysis** and **business problem-solving**. I focus on answering the question: "Why is this happening?" rather than just "What happened?"
 
 I use **SQL**, **Python**, and **statistical analysis** to diagnose business problems, distinguish between operational and structural issues, and deliver recommendations that fit real-world constraints. My work emphasizes **business impact over technical complexity**—turning data into decisions that leadership can act on.
 
