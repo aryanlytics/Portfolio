@@ -1,5 +1,11 @@
-<p align="center">
-<img width="150" height="190" alt="portfolio-plus-banking-software-logo-png_seeklogo-354120 (4)" src="https://github.com/user-attachments/assets/a7b6156e-6d45-4f82-bfff-0858031c5ee8" />
+<p align="left"> 
+  <img 
+    src="https://github.com/user-attachments/assets/b7f742a3-1ff7-46a8-b9af-5c4d89c68693" 
+    alt="Muhammad Aryan" 
+    width="200" 
+    height="200" 
+    style="border-radius: 50%; object-fit: cover;"
+  >
 </p>
 
 
@@ -7,6 +13,7 @@
 
 
 # **Muhammad Aryan - Portfolio**
+
 
 ## About me
 I'm **Muhammad Aryan**, a **data analyst** specializing in **diagnostic analysis** and **business problem-solving** for e-commerce and marketplace operations. I focus on answering the question: "Why is this happening?" rather than just "What happened?"
@@ -18,7 +25,6 @@ Here, you'll find projects that demonstrate **diagnostic thinking**, **hypothesi
 ---
 
 ## Table of Contents
-- [About](#about)
 - [Portfolio Projects](#portfolio-projects)
 - [Skills](#skills)
 - [Contact](#contact)
