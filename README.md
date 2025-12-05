@@ -100,8 +100,5 @@ This project diagnoses what drives these behaviors using statistical testing (ch
 - **GitHub:** [Muhammad Aryan](https://github.com/aryanlytics)
 - **Location:** Peshawar, Pakistan
 
----
-
-*This portfolio demonstrates diagnostic analysis capabilities: distinguishing between what's broken operationally and what requires strategic change. Each project focuses on business decisions, not just technical execution.*
 
 
