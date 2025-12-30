@@ -109,7 +109,7 @@ Instacart needed to understand why reorder rates varied 32 percentage points acr
 
 ## Download CV
 
-**[Download My CV (PDF)](https://github.com/aryanlytics/Portfolio/blob/main/Muhammad_Aryan_CV.pdf)**
+📄 **[Download My CV (PDF)](https://raw.githubusercontent.com/aryanlytics/Portfolio/main/Muhammad_Aryan_CV.pdf)**
 
 ---
 
