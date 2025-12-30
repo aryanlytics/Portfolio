@@ -8,19 +8,13 @@
   >
 </p>
 
-
-
-
-
 # **Muhammad Aryan - Portfolio**
 
+## About Me
 
-## About me
-I'm **Muhammad Aryan**, a **data analyst** specializing in **diagnostic analysis** and **business problem-solving**. I focus on answering the question: "Why is this happening?" rather than just "What happened?"
+I'm **Muhammad Aryan**, a **data analyst** who helps leadership make confident decisions. I turn raw data into clear insights about customer behavior and revenue, so you know what's actually happening, why it's happening, and what the data suggests.
 
-I use **SQL**, **Python**, and **statistical analysis** to diagnose business problems, distinguish between operational and structural issues, and deliver recommendations that fit real-world constraints. My work emphasizes **business impact over technical complexity**—turning data into decisions that leadership can act on.
-
-Here, you'll find projects that demonstrate **diagnostic thinking**, **hypothesis testing**, and **strategic recommendations** grounded in statistical evidence and business reality.
+I use **SQL**, **Python**, and **statistical testing** to diagnose business problems across e-commerce, marketplaces, SaaS and financial services. My work focuses on **business impact over technical complexity**—delivering recommendations that fit real-world constraints.
 
 ---
 
@@ -28,77 +22,95 @@ Here, you'll find projects that demonstrate **diagnostic thinking**, **hypothesi
 - [Portfolio Projects](#portfolio-projects)
 - [Skills](#skills)
 - [Contact](#contact)
+- [Download CV](#download-cv)
 
 ---
 
 ## **Portfolio Projects**
-Here is a brief overview of my projects. Click on the links to see the full project details.
 
-# **Project 1. Olist Marketplace Retention Analysis:**
-### **Diagnosing 97% Customer Churn**         
+## **Project 1: Olist E-Commerce Retention Analysis**
+**Diagnosing Why 97% of Customers Never Returned**
 
-**Overview:**  
-Olist, a Brazilian e-commerce marketplace, faced a critical retention problem: 97% of customers never made a second purchase. Leadership needed to know whether this was an operational failure they could fix (delivery speed, seller quality) or a structural market behavior requiring a strategic pivot.
+**The Problem:**  
+Olist, a Brazilian e-commerce marketplace, faced a 97% customer churn rate. Leadership needed to know whether this was fixable through operational improvements (delivery speed, seller quality) or a structural market behavior requiring strategic change.
 
-This project diagnoses the root cause using statistical testing to distinguish correlation from causation, examining delivery performance, customer satisfaction, category mix, pricing, and geography.
+**What I Did:**  
+- Analyzed 96K customer transactions across delivery performance, reviews, categories, pricing, and geography
+- Used statistical testing (chi-square, cohort analysis) to prove causation vs correlation
+- Tested whether delivery speed, customer satisfaction, or category mix could fix retention
 
-**Goal:**  
-* Determine if retention failure is operational (fixable) or structural (requires strategic change)
-* Test hypotheses about delivery, reviews, category, and price effects on retention
-* Provide actionable recommendations within Olist's platform constraints (no logistics control)
+**What I Found:**  
+Even customers with perfect experiences (on-time delivery + 5-star reviews) only returned 3.2% of the time. Statistical tests proved delivery (p=0.004) and satisfaction (p=0.889) have no meaningful impact on retention—the problem is **structural market behavior**, not operations.
 
-**Result:**  
-Proved that retention is a **structural market problem**, not operational. Even customers with perfect experiences (on-time delivery, 5-star reviews) only returned 3.2% of the time. Statistical tests confirmed delivery (p=0.004) and satisfaction (p=0.889) have minimal impact on retention.
+**What the Data Suggested:**  
+Stop fighting retention with operational fixes. Reallocate retention marketing budget (~$300K annually) to acquisition efficiency and shift category mix toward high-repeat categories like home appliances (11% repeat rate vs 3% average).
 
-**Key insight:** Olist was positioned as a transactional marketplace for one-off purchases, not a relationship platform. Recommended shifting from retention optimization to acquisition efficiency and category mix improvement—estimated **$2.5M GMV impact over 3 years** without changing logistics or seller infrastructure.
+**Impact:** Projected $2.5M GMV increase over 3 years without changing logistics or seller infrastructure.
 
-[See full project](https://github.com/aryanlytics/Olist-Retention-Analysis.git)
+[See Full Project](https://github.com/aryanlytics/Olist-Retention-Analysis)
 
 ---
 
+## **Project 2: Instacart Customer Behavior Analysis**
+**Understanding Reorder Patterns and Basket Size Drivers**
 
+**The Problem:**  
+Instacart needed to understand why reorder rates varied 32 percentage points across categories (dairy 67% vs pantry 35%) and why some customers built large baskets while others didn't.
 
-# **Project 2. Instacart Customer Behavior Analysis:**
-### **Diagnosing Reorder Patterns and Basket Size Drivers**
+**What I Did:**  
+- Analyzed 32M orders using statistical testing (chi-square, ANOVA, correlation, regression)
+- Tested whether reorder behavior was driven by category type, customer loyalty, timing, or product popularity
+- Tested whether basket size was driven by customer frequency, shopping breadth, or day of week
 
-**Overview:**  
-Instacart operates in a low-margin, high-volume grocery delivery business where two metrics determine profitability: reorder rate (retention) and basket size (revenue per transaction). Across 32.4 million orders, the company noticed wide variation in both—some products reordered at 67%, others at 35%; some baskets with 30+ items, others with just 2-3 items.
+**What I Found:**  
 
-This project diagnoses what drives these behaviors using statistical testing (chi-square, ANOVA, correlation, regression) to determine whether differences are operational, behavioral, or timing-based.
+**Reorder Behavior:**  
+- Category type dominates everything—dairy has 97% higher reorder odds (p < 0.001), pantry has 53% lower odds
+- Low pantry reorders aren't a retention problem—customers want variety in pasta/snacks, not brand loyalty
+- Customer frequency matters (45-point spread between new and established customers), but category still dominates
 
-**Goal:**  
-* Determine why some products get reordered while others don't (category psychology vs operational failure)
-* Identify what drives basket size variation (customer loyalty vs shopping breadth)
-* Provide data-backed recommendations to optimize retention spend and revenue per order
+**Basket Size:**  
+- Category breadth drives basket size—each additional department adds 2.43 items (r = 0.82, p < 0.001)
+- Sunday baskets are 19% larger than Wednesday (p < 0.001)—weekly stock-up behavior is real
+- High-loyalty customers (80%+ reorder) have 21% smaller baskets—they buy the same staples efficiently
 
-**Result:**  
-**Question 1 (Reorder Behavior):** Proved reorder rates are driven by **category type** (dairy 97% higher odds, pantry 53% lower, p < 0.001) and **user frequency** (45-point spread between new and established customers), not timing. Pantry's low reorder rate reflects natural variety-seeking behavior, not retention failure. Recommended reallocating 15-20% of wasted retention budget from pantry promotions to dairy/beverage reorder campaigns.
+**What the Data Suggested:**  
+- Stop wasting retention budget on pantry promotions (save 15-20% of spend)
+- Focus retention on dairy/beverages where loyalty exists naturally
+- Shift promotional budget to Sundays when customers are stocking up
+- Build cross-category bundles to increase basket breadth, not customer frequency
 
-**Question 2 (Basket Size):** Proved basket size is driven by **category diversity** (each additional department = +2.43 items, r = 0.82, p < 0.001) and **day of week** (Sunday baskets 19% larger, p < 0.001), not customer frequency. High-loyalty customers (80%+ reorder rate) have 21% *smaller* baskets because they buy the same staples efficiently. Recommended shifting promotional budget to Sundays and building cross-category bundles to drive breadth, not frequency.
+**Impact:** Potential +$10-15 revenue per order through category expansion, 15-20% promotional ROI improvement.
 
-**Key insight:** Both metrics are about **what customers buy** (category mix) and **when they shop** (weekly rhythms), not **who they are** (loyalty tier). Instacart was treating basket growth as a loyalty problem when it's actually a cross-selling problem. Expected impact: +$10-15 revenue per order through category expansion, 15-20% promotional ROI improvement by targeting high-basket days.
+[See Full Project](https://github.com/aryanlytics/Instacart-Customer-Behavior-Analysis)
 
-[See full project](https://github.com/aryanlytics/Instacart-Customer-Behavior-Analysis.git)
+---
 
-
-----
 ## Skills
-- **Diagnostic Analysis** (Why is this happening?)
-- **Hypothesis Testing** (Chi-square, regression, A/B testing)
-- **SQL** (PostgreSQL: cohort analysis, segmentation, complex queries)
-- **Python** (Statistical analysis with scipy, pandas)
-- **Business Problem Framing** (Operational vs structural diagnosis)
-- **Statistical Validation** (Effect size interpretation, business significance)
-- **Strategic Recommendations** (Constraint-based solutions, GMV/ROI modeling)
-- **Data Storytelling** (Translating technical findings to business impact)
+
+**Analysis:** Descriptive, diagnostic, predictive, prescriptive, customer behavior analysis, financial analysis  
+**Programming & Data:** SQL (PostgreSQL), Python (pandas, numpy, scikit-learn, scipy, seaborn)  
+**Statistical Methods:** Hypothesis testing (chi-square, ANOVA, t-tests), regression analysis, correlation analysis, cohort analysis  
+**Analytics & BI:** Power BI, Tableau, Excel (advanced), data visualization  
+**Business Skills:** Problem diagnosis (operational vs structural), constraint-based recommendations, ROI modeling  
+**Domains:** E-commerce, marketplaces, SaaS financial services, consumer lending
 
 ---
 
 ## Contact
-- **Email:** aryanlytics@gmail.com
-- **LinkedIn:** [Muhammad Aryan](https://www.linkedin.com/in/muhammadaryan008/)
-- **GitHub:** [Muhammad Aryan](https://github.com/aryanlytics)
-- **Location:** Peshawar, Pakistan
 
+**Email:** aryanlytics@gmail.com  
+**LinkedIn:** [Muhammad Aryan](https://www.linkedin.com/in/muhammadaryan008/)  
+**GitHub:** [aryanlytics](https://github.com/aryanlytics)  
+**WhatsApp:** [+92-340-0407475](https://wa.me/923400407475)  
+**Location:** Peshawar, Pakistan
 
+---
 
+## Download CV
+
+**[Download My CV (PDF)](https://github.com/aryanlytics/Portfolio/blob/main/Muhammad_Aryan_CV.pdf)**
+
+---
+
+*Data shows what's happening. Analysis explains why. Insights guide what to do next.*
