@@ -99,11 +99,12 @@ Instacart needed to understand why reorder rates varied 32 percentage points acr
 
 ## Contact
 
-**Email:** aryanlytics@gmail.com  
-**LinkedIn:** [Muhammad Aryan](https://www.linkedin.com/in/muhammadaryan008/)  
-**GitHub:** [aryanlytics](https://github.com/aryanlytics)  
-**WhatsApp:** [+92-340-0407475](https://wa.me/923400407475)  
-**Location:** Peshawar, Pakistan
+<p align="left">
+<a target="_blank" href="https://www.linkedin.com/in/muhammadaryan008/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="mailto:aryanlytics@gmail.com"><img src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://wa.me/923400407475"><img src="https://img.shields.io/badge/whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+</a>
+
 
 ---
 
